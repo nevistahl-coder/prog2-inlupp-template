@@ -1,7 +1,10 @@
-/*Nevi Ståhl, nest9126
-Luka Pavlovic, 0486
-Mustafa Akinci, muak 3529*/
 package se.su.inlupp;
+/*
+PROG2 VT2026, Inläamningsuppgift, del 1
+Grupp 071
+Nevi Ståhl, nest9126
+Luka Pavlovic, lupa0486
+Mustafa Akinci, muak 3529*/
 
 import java.util.*;
 
@@ -100,9 +103,9 @@ public class ListGraph<T> implements Graph<T> {
   }
 
   @Override
-  public String toString(){
+  public String toString() {
     String result = "";
-    for( T node: nodes.keySet()){
+    for (T node : nodes.keySet()) {
       result += node + ": " + nodes.get(node) + "\n";
     }
     return result;
@@ -145,8 +148,8 @@ public class ListGraph<T> implements Graph<T> {
 
     @Override
     public String toString() {
-    return "till " + destination + " med " + name + " tar " + weight;
-}
+      return "till " + destination + " med " + name + " tar " + weight;
+    }
 
   }
 }

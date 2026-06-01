@@ -1,7 +1,10 @@
-/*Nevi Ståhl, nest9126
-Luka Pavlovic, 0486
-Mustafa Akinci, muak 3529*/
 package se.su.inlupp;
+/*
+PROG2 VT2026, Inläamningsuppgift, del 1
+Grupp 071
+Nevi Ståhl, nest9126
+Luka Pavlovic, lupa0486
+Mustafa Akinci, muak 3529*/
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,7 +54,8 @@ public class GraphPath<T> implements Path<T> {
     }
 
     public String toString() {
-      return "Startnod " + start + ", slutnod: " + getEnd() + ", kanter: " + edges + ", totalvikt: " + getTotalWeight();
+        return "Startnod " + start + ", slutnod: " + getEnd() + ", kanter: " + edges + ", totalvikt: "
+                + getTotalWeight();
     }
 
 }
